@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>소프트웨어 기술 선호에 관한 설문</title>
+    <style>
+        form{
+            margin-bottom: 20px;
+        }
+
+        label{
+            display: block;
+        }
+
+        textarea{
+            width: 300px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>설문지</h3>
+        <p>소프트웨어 기술에 대한 의견을 듣습니다. 많은 참여 부탁드립니다.</p>
+    </header>
+    <hr>
+    <section>
+        <form>
+            학년
+            <input type="radio" name="grade" value="1" checked>1학년
+            <input type="radio" name="grade" value="2">2학년
+            <input type="radio" name="grade" value="3">3학년
+            <input type="radio" name="grade" value="4">4학년
+        </form>
+
+        <form>
+            성별
+            <input type="radio" name="gender" value="1">남
+            <input type="radio" name="gender" value="2">여
+        </form>
+
+        <form>
+            관심 분야
+            <select name="interested">
+                <option value="1">모바일 소프트웨어</option>
+                <option value="2">백엔드</option>
+                <option value="3">프론트엔드</option>
+            </select>
+        </form>
+
+        <form>
+            진로
+            <input type="checkbox" value="1" checked>개발
+            <input type="checkbox" value="2">기획
+            <input type="checkbox" value="3">영업
+            <input type="checkbox" value="4">창업
+        </form>
+        
+        <form>
+            <label for="comment">남기고 싶은 말</label>
+            <textarea id="comment" placeholder="글을 남겨주세요"></textarea>
+        </form>
+    </section>
+
+    <footer>Copyright 2022 by Kitae</footer>
+</body>
+</html>
