@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+    margin: 0;
+}
+
+html, body{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+header{
+    height: 20%;
+    background-color: yellow;
+}
+
+nav{
+    flex: 0 0 115px;
+    background-color: orange;
+    padding: 0 10px;
+}
+
+section{
+    background-color: skyblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-family: "휴먼편지체", 1em, 1em;
+}
+
+h2{
+    color: blue;
+    text-shadow: 2px,2px,2px,black;
+}
+
+footer{
+    background-color: mediumpurple;
+    height: 8%;
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    height: 72%;
+}
+
+section{
+    width: 100%;
+}

@@ -1,0 +1,51 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+
+h2{
+    margin: 0;
+    text-align: center;
+}
+
+header{
+    background-color: yellow;
+}
+
+header>p{
+    text-align: center;
+}
+
+section{
+    background-color: lightsalmon;
+    margin: 10px;
+}
+
+form{
+    color: black;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+form>label{
+    color: blue;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: initial;
+}
+
+textarea{
+    display:  inline-block;
+    width: 400px;
+    height: 150px;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: mediumpurple;
+    padding: 20px;
+}
